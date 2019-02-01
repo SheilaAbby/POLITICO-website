@@ -5,35 +5,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Home Page</title>
+    <title>Politico | Login</title>
 </head>
 <body>
-    <div class="container wrapper">
-        <div id="top">
-          <h1>Politico</h1>
-          <i><p style="color:black;">Let's move Kenya forward, together</p></i>
+<div class="container wrapper">
+
+    <div id="top">
+    <h1>Politico</h1>
+    <i><p style="color:black;">Let's move Kenya forward, together</p></i>
+    </div>
+
+    <div class="wrapper">
+        <div id="main">
+        <h1>Login Here</h1>
+
+        <form name="login" action="signup.html" onsubmit="return validation();">
+            <input type="text" class="textbox" placeholder="Your National ID" name="citizen_id" value=""><br>
+            <input type="password" class="textbox" placeholder="Password" name="pswd" value=""><br>
+            <input type="submit" value="Login In">
+        </form>
+        <div id="error"></div>
+          <h>Do not have an Account?Create one <a href="signup.html">here</a></h>
         </div>
-        <div class="wrapper">
-          <div id="main">
-          <div></div>
-           <h1>Login</h1>
-           <form action="signup.html">
-           <div class="textbox">
-                <input type="text" placeholder="Citizen ID" name="" value="">
-                </div>
-                <div class="textbox">
-                <input type="password" placeholder="Password" name="" value="">
-                </div>
-                
-                <input type="submit" value="Login In">
-                </form>
-         </div>
         
-        </div>  
-        <div id="bottom">
+      </div>  
+    <div id="bottom">
         <footer id="footer"></footer>
-        </div>
-      </div>
+    </div>
+</div>
+<!--JavaSCript-->
 <script src="js/politico.js">
 </script>   
 </body>
