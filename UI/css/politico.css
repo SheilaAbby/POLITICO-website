@@ -121,6 +121,14 @@
         border-radius: 4px;
         cursor: pointer;
       }
+    
+    .delete-btn {
+        background-color: red;
+    }
+
+    .edit-btn {
+        background-color: black;
+    }
 
     a {
         color: #000000;
