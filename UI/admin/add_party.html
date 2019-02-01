@@ -17,12 +17,15 @@
     <div id="main">
     <div></div>
     <h1>Create a Political Party </h1>
-    <form name="parties" action="#" onsubmit="return validation();">
-        
-            <input type="text" class="textbox" placeholder="Enter Political Party Name" name="party_name" value=""><br> 
-            <input type="text" class="textbox" placeholder="Enter Political Party Leader Name" name="leader_name" value=""><br> 
+    <form name="offices" action="#" onsubmit="return validation();">
+            <input type="text" class="textbox" placeholder="Enter Office name" name="office_name" value=""><br> 
+            <select name="status">
+            <option value="active">Not Vacant</option>
+            <option value="inactive">Vacant</option>
+            </select><br>
             <input type="submit" value="Add"><br>
-            </form>
+            </form>    
+    
     </div>
         
         </div>  
