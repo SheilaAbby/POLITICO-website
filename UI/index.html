@@ -1,56 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="css/politico.css"  type="text/css"/>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Home Page</title>
+    <title>Politico | Home</title>
+    <link href="css/politico.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <div class="container wrapper">
-        <div id="top">
-          <h1>Politico</h1>
-          <i><p style="color:black;">Let's move Kenya forward, together</p></i>
-          
-          <div id="menubar">
-            <ul id="menulist">
-                <li><a href="login.html">Login</a></li>
-                <li><a href="signup.html">Sign Up</a></li>
-                <li><a href="admin/admin_home.html">Site Admin</a></li>
-          </ul>
-           </div>
-           
+    <header>
+        <div class="container">
+            <div id="brand">
+                <h1>POLITICO</h1>
+                <span class="highlight"><i>Lets move Kenya Foward, Together</i></span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="admin.html">Admin Site</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="signup.html">Sign Up</a></li>
+                    <li><a href="politician.html">Politician</a></li>
+                </ul>
+            </nav>
         </div>
-        <div class="wrapper">
-          <div id="main">
-            <h1>Welcome to Politico  2022</h1>
-            <p style="font-size: 150%">Politico enables citizens give their mandate to politicians running for government offices<br>
-                while building trust in the process through transparency.<br>
-              </p>
-            <div id="videos">
-            <video controls width="500px">
+    </header>
+
+    <section id="middle-section">
+        <div class="container">
+            <h1>Welcome to Politico.</h1>
+            <p>Politico enables citizens give their mandate to<br>
+                 politicians running for different government offices
+            while building trust in the process through transparency.
+            </p>
+            <div> <video controls width="500px">
                 <source src="videos/video.webm" type="video/webm">
             </video>
-            <video controls  width="500px">
-              <source src="videos/integrity.mp4" type="video/mp4">
-          </video>
-          </div>
-         </div>
-          <div id="sidebar">
-            <h3>Know your Rights section</h3>
-            <h4>Right to vote.</h4><hr>
-            <p>Every citizen is free to make political choices, which includes the right-<br>
-              (a) to form, or participate in forming, a political party;<br>
-              (b) to participate in the activities of, or recruit members for, a political party; or<br>
-              (c) to campaign for a political party or cause.
-            </p>
-          </div>
-        </div>  
-        <div id="bottom">
-         <p>politico@2022</p>
+            <video controls width="500px">
+                <source src="videos/integrity.mp4" type="video/mp4">
+            </video></div>
         </div>
-      </div>
-      
+    </section>
+    <footer>
+        <p>Politico, Copyright &copy; 2019</p>
+    </footer>
 </body>
 </html>
